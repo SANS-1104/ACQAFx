@@ -1,0 +1,29 @@
+.nav-heads a.navbar-brand{
+    font-size: 2.5rem;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: bolder;
+    font-style: normal;
+}
+.nav-heads{
+    width: fit-content;
+}
+.navbar .nav-heads .heading-ACFX{
+    font-size: 2.5rem;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.login-btn, .signup-btn{
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.login-btn{
+    background-color: rgb(162, 235, 162);
+    margin-left: 1rem;
+}
+.signup-btn{
+    background-color: rgb(238, 136, 136);
+}

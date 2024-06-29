@@ -1,0 +1,70 @@
+.start-trade-steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+
+.start-trade-steps .steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
+.start-trade-steps .steps .step{
+    border: 2px solid black;
+    width: 20rem;
+    height: 10rem;
+    margin-right: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #f7e2d4;
+}
+
+.start-trade-steps .steps .step .icon-space img{
+    width: 2rem;
+    height:2rem;
+}
+
+.start-trade-steps .steps .step .step-name{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 0.5rem;
+}
+
+.start-trade-steps .steps .step .how-to{
+    margin-top: 1rem;
+}
+
+.start-trade-steps .start-trade-btnss button{
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    
+}
+
+.start-trade-steps .start-trade-btnss button#demo{
+    background-color: rgb(252, 193, 193);
+    border: 2px solid rgb(240, 89, 89);
+}
+
+.start-trade-steps .start-trade-btnss button#live{
+    border: 3px solid rgb(240, 89, 89);
+    background-color: transparent;
+}
+
+
+.start-trade-steps .start-trade-btnss button#live:hover{
+    background-color: #fae0cf;
+}
+
+
+.start-trade-steps .start-trade-btnss button#demo:hover{
+    background-color: #f7e2d4;
+}

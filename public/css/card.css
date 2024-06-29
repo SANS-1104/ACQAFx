@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-60243.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-individual{
+    width: 20rem;
+    height: 25rem;
+    border: 5px ridge black;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    cursor :pointer;
+    background-color: rgb(216, 151, 105);
+    background-size: cover;
+    transition: transform .2s;
+}
+.card-individual:hover{
+    transform: scale(1.2);
+}
+
+.card-image{
+    height: 20%;
+    margin-bottom: 2rem;
+}
+.card-image .card-image-holder{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 1rem;
+    width: fit-content;
+    margin-left: 35%;
+}
+.card-image .card-image-holder i{
+    font-size: 1.5rem;
+    
+}
+.card-content p{
+    height: 80%;
+    padding: 1rem 2rem 2rem ;
+}
