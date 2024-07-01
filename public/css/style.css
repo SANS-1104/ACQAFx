@@ -512,6 +512,7 @@ footer.container p{
 
 .basic-terms-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -522,15 +523,21 @@ footer.container p{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .extra-forex-terms{
-    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
     text-align: justify;
 }
 
 .FOREX-BASIC-TERMS .details{
-    width: 50rem;
-    margin-right: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
     padding: 1rem;
 }
 
@@ -545,7 +552,7 @@ footer.container p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
 }
 .forex-heading3-container{
     display: flex;
@@ -600,4 +607,122 @@ footer.container p{
 
 .contact-single-reason i{
     font-size: 2em;
+}
+
+
+.CFD-INFO-CONTAINER{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cfd-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.CFD-TRADING-AVENUE-CONTAINER{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10rem
+}
+
+.cfd-trading-avenue{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cfd-trading-avenue h2{
+    margin-bottom: 3rem;
+}
+.inc-tr-ch {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5em;
+}
+.inc-tr-ch p{
+    font-weight: 500;
+}
+.cfd-trading-avenue .avenue-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cfd-trading-avenue .avenue-details .content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    text-align: left;
+}
+
+
+.cfd-trading-avenue .avenue-details .content .points{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.cfd-trading-avenue .avenue-details .content .points .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    background-image: radial-gradient(circle ,#f7e2d4,#fa954d, #a16438);
+}
+
+.CFD-ADVANTAGE-CONTAINER{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0 5rem;
+    flex-direction: column;
+}
+
+.CFD-ADVANTAGE-CONTAINER .cfd-advantages{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.CFD-ADVANTAGE-CONTAINER .cfd-advantages .COL{
+    width: 30%;
+    padding: 2rem;
+    margin-right: 2rem;
+    border: 2px solid black;
+    margin-top: 3rem;
+}
+
+.CFD-ADVANTAGE-CONTAINER .cfd-advantages .COL .col-para{
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+}
+
+.CFD-ADVANTAGE-CONTAINER .cfd-advantages .COL .col-para i{
+    margin-right: 1rem;
+    font-size: 2rem;
 }
