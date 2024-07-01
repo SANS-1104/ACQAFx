@@ -10,14 +10,7 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css files self made -->
-    <link rel="stylesheet" href="public/css/nav.css">
-    <link rel="stylesheet" href="public/css/start-trade-steps.css">
-    <link rel="stylesheet" href="public/css/footer.css">
-    <link rel="stylesheet" href="public/css/carousel.css">
-    <link rel="stylesheet" href="public/css/card.css">
-    <link rel="stylesheet" href="public/css/servingAreas.css">
-    <link rel="stylesheet" href="public/css/lead-broker.css">
-    <link rel="stylesheet" href="public/css/start-trad-acc.css">
+    <link rel="stylesheet" href="public/css/style.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,61 +20,70 @@
 <body>
   <!-- NAVBAR BEGINS HERE -->
       <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid nav-heads">
-            <img src="public/images/logo.jpg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top heading-ACFX"> ACFX
-        </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li><img src="public/images/logo.jpg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top heading-ACFX"></li>
+              <li class="nav-item" id="ACFX-name">ACFX</li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trading
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="what_is_forex.html">What is Forex?</a></li>
+                  <li><a class="dropdown-item" href="vanilla.html">Vanilla Options</a></li>
+                  <li><a class="dropdown-item" href="CFDs.html">CFDs</a></li>
+                  <li><a class="dropdown-item" href="ETF-Trading.html">ETF Trading</a></li>
+                  <li><a class="dropdown-item" href="Stock-Trading.html">Stock Trading</a></li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Trading & Trading info
+                  Platforms
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Vanilla Options</a></li>
-                  <li><a class="dropdown-item" href="#">CFD's</a></li>
-                  <li><a class="dropdown-item" href="#">ETF</a></li>
-                  <li><a class="dropdown-item" href="#">Stock Trading</a></li>
-                  <li><a class="dropdown-item" href="#">Forex</a></li>
-                  <li><a class="dropdown-item" href="#">Indices</a></li>
-                  <li><a class="dropdown-item" href="#">Energies</a></li>
-                  <li><a class="dropdown-item" href="#">Crypto Currency</a></li>
+                  <li><a class="dropdown-item" href="#">MT5 for Windows</a></li>
+                  <li><a class="dropdown-item" href="#">MT5 for IOS</a></li>
+                  <li><a class="dropdown-item" href="#">MT5 for Android</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Markets</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Company
+                  Trading Info
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About</a></li>
-                  <li><a class="dropdown-item" href="#">Blog</a></li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
-                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="indices.html">Indices</a></li>
+                  <li><a class="dropdown-item" href="metals.html">Metals</a></li>
+                  <li><a class="dropdown-item" href="energies.html">Energies</a></li>
+                  <li><a class="dropdown-item" href="cryptocurrencies.html">Crypocurrencies</a></li>
+                  <li><a class="dropdown-item" href="futures.html">Futures</a></li>
                 </ul>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Partnership
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="advantages.html">Advantages</a></li>
+                  <li><a class="dropdown-item" href="partner-types.html">Partner Types</a></li>
+                  <li><a class="dropdown-item" href="partner-promotions.html">Partner Promotions</a></li>
+                  <li><a class="dropdown-item" href="commisions.html">Commission Structures</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="packages.html">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+              </li>
+              
               <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Resources
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Documentation</a></li>
-                  <li><a class="dropdown-item" href="#">Education</a></li>
-                  <li><a class="dropdown-item" href="#">Our Packages</a></li>
-                  <li><a class="dropdown-item" href="#">Customers</a></li>
-                  <li><a class="dropdown-item" href="#">Legal Docs</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+              
         </div>
         <button type="button" class="btn btn-outline-success login-btn">Login</button>
         <button type="button" class="btn btn-outline-danger signup-btn">Sign Up</button>
@@ -93,15 +95,21 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active cc" data-bs-interval="3000">
-              <img src="public/images/carousel6.jpg" class="d-block w-100" alt="..">
+              <img src="public/images/carousel8.jpg" class="d-block w-100" alt="..">
+              <span class="carousel-caption d-none d-md-block img-label2" id="c1">
+                <h2>Online Trading with <br> Better than <br> Market Conditions</h2>
+                <p>Trade across multiple markets <br> with the most stable and reliable <br> pricing in the industry.</p>
+              </span>
+                
               <div class="carousel-caption d-none d-md-block">
                 
               </div>
             </div>
             <div class="carousel-item cc" data-bs-interval="3000">
-              <img src="public/images/carousel5.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block img-label1">
-                <h1>Fastest Way to Investing & Trading</h1>
+              <img src="public/images/carousel7.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block img-label2" id="c2">
+                <h2>The world's most <br> powerful trade app.</h2>
+                <p>Get the most accurate market data, <br> alerts, conversions, tools and more — <br> all within the same app.</p>
               </div>
             </div>
           </div>
@@ -312,6 +320,8 @@
           <button type="submit" id="demo">Open Demo Account</button>
         </div>
       </div>
+
+      <!-- footer Begins -->
       <hr style="margin: 5rem 5rem 2rem; border: 2px solid black;">
       <footer class="container">
         <div class="row pt-2 color-white">
@@ -344,6 +354,9 @@
         </div>
         <p>Risk Warning: Investing in financial instruments as well as trading FOREX and other leveraged derivatives involves a big degree of risk and may not be suitable to all investors. Trading such financial instruments can increase losses as well as gains on the relatively small movements of the underlying market. or its officials are not responsible for any losses, and before trading, one should consult an independent advisor or professional entity if necessary. For further information please refer to the Risk Warning that is available on our web site. </p>
       </footer>
+
+      <!-- footer ends -->
+
     </div>
        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
