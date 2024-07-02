@@ -726,3 +726,48 @@ footer.container p{
     margin-right: 1rem;
     font-size: 2rem;
 }
+
+.ETF-ICONS{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.ETF-ICONS .EACH-ICON-ETF{
+    font-size: 1.5em;
+}
+
+.ETF-ICONS .EACH-ICON-ETF i{
+    margin-right: 1rem;
+}
+
+.WHY-TRADE-CONTAINER{
+    margin-top: 0;
+}
+
+.PARTNER-PROM-ELIGIB-CRITERIA-CONTAINER{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.PARTNER-PROM-ELIGIB-CRITERIA{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.PARTNER-PROM-ELIGIB-CRITERIA .each-criteria{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.PARTNER-PROM-ELIGIB-CRITERIA .each-criteria i{
+    font-size: 1.2em;
+    margin-right: 1rem
+}
